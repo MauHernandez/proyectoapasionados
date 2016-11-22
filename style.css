@@ -1,0 +1,506 @@
+/*
+Theme Name: mh
+Theme URI: http://proyectoapasionados.org/pamh/
+Description: Child theme custom made for Poryecto apasionados
+Author: Maureen Hernandez
+Author URI: 
+Template: mh
+Version: 1.0.0
+*/
+
+body:before{
+	width: 0;
+}
+
+body{
+	background: white !important;
+}
+
+a:hover,
+a:active,
+a:link{
+	text-decoration: none;
+	border: 0 !important;
+}
+
+.site{
+	max-width: 1440px;
+	margin: 0 auto;
+	float: none;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: 'Permanent Marker';
+}
+
+p, label{
+	font-family: 'Architects Daughter', cursive;
+	color: #2a2a2a;
+	margin-bottom: 0;
+}
+
+.site-content{
+	display: block;
+	float: none;
+	margin:0;
+	width: 100%;
+}
+
+/*section{
+	height: 100vh;
+}*/
+
+.pre-header{
+	height: 100vh;
+	background-size: 100vw 100vh !important;
+}
+
+.pre-header h1{
+	color: white;
+}
+
+.main-tag{
+	position: relative;
+	bottom: -60vh;
+	font-size: 3em;
+	text-shadow: 2px 2px #383636;
+	padding-left: 20px;
+    -ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+	transform: rotate(-5deg);
+}
+
+.menu-mh{
+	position: absolute;
+	top: 100vh;
+	width: 100%;
+}
+
+.navbar-default {
+    background-color: #2a2a2a;
+    border-color: #2a2a2a;
+    border-radius: 0px;
+	margin-bottom: 0px;
+}
+
+.navbar-nav > li ,
+.navbar-brand{
+    font-family: 'Permanent Marker';
+    text-shadow: 2px 2px #383636;
+	font-size: 1.5em;
+	display: inline;
+	padding: 0 15px;
+}
+
+.navbar-default a.navbar-brand{
+	color: white;
+	margin-top: 15px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: white
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #faf107;
+}
+
+.navbar-nav{
+	float: right;
+	list-style: none;
+	margin-top: 5px;
+}
+
+/*.navbar-header,
+.navbar-collapse{
+	display: inline;
+}
+*/
+/* SABIAS QUE */
+
+#facts {
+	clear: both;
+}
+
+#facts .carousel-inner > .item > img{
+	height: 500px;
+	max-width: 50%;
+	padding: 50px 0 50px 120px;
+	float: left;
+}
+
+#facts .carousel-caption {
+    right: 0%;
+    left: 0%;
+    padding-bottom: 0px;
+	float: right;
+	width: 60%;
+	position: relative;
+	padding: 50px 50px 50px 10px;
+	top: 50px;
+}
+
+#facts .carousel-indicators {
+    top: 40%;
+    left: 1%;
+    padding-left: 0px;
+    margin-left: 0%;
+    width: 2%;
+}
+
+#facts .carousel-indicators li{
+	background-color: #939393;
+	border-color: #939393;
+}
+
+#facts .carousel-indicators .active{
+	background-color: #faf107;
+	border-color: #faf107;
+}
+
+#facts p,
+#facts h2{
+	font-size: 36px;
+}
+
+#facts h2{
+	color: #faf107;
+	text-shadow: none;
+}
+
+.center-vert{
+	position: relative;
+	top: 50%;
+	/*transform: translateY(-50%);*/
+}
+
+.sabias-que{
+	margin-top: 10px;
+	text-align: center;
+	background-size: cover !important;
+}
+
+.sabias-que div{
+	padding: 100px 0;
+}
+
+.sabias-que p ,
+.sabias-que h2{
+	padding-bottom: 50px;
+}
+
+.sabias-que p {
+	font-size: 24px;
+	padding: 0px 60px 50px;
+}
+
+.sabias-que img{
+	height: 105px;
+	width: 105px;
+}
+
+/* MISION */
+
+.mision{
+	text-align: center;
+	padding: 0px 50px 30px;
+}
+
+.mision p{
+	font-size: 30px;
+	padding: 100px 200px 0;
+}
+
+.mision h1{
+	color: #faf107;
+	font-size: 30px;
+	text-shadow: 2px 2px #383636;
+	padding: 30px; 
+}
+
+.mision img{
+	margin: 0 15px;
+	width: 50px;
+}
+
+.videos{
+	padding: 0px 20%;
+	margin-top: 100px;
+}
+
+#editMe, 
+#appView .powrMark{
+	display: none !important;
+}
+
+.center{
+	margin: 0 auto;
+	float: none;
+}
+
+#consection{
+	background-color: rgb(250, 241, 7);
+	height: 500px;
+	clear: both;
+}
+
+.contact h2,
+#sendb{
+	color: #2a2a2a;
+	font-size: 36px;
+	text-shadow: none;
+	text-align: center;
+	padding: 5% 0 8%;
+}
+
+label{
+	display: inline;
+	float: left;
+	width: 30%;
+	font-size: 22px;
+	text-align: right;
+	padding-right: 15px;
+}
+
+input,
+textarea {
+	display: inline;
+	width: 70% !important;
+}
+
+.fixed-sidebar {
+    position: fixed;
+    top: 0px;
+    -webkit-transition-property: position;
+    transition-property: position;
+    transition-duration: 1s;
+    width: 100%;
+    z-index: 999;
+}
+
+.form-control{
+	border: 2px solid #faf107;
+	border-radius: 0px;
+	margin-bottom: 30px;
+}
+
+#sendb{
+	background-color: transparent !important;
+	border: 0;
+	padding: 0 0 20px;
+	font-family: 'Permanent Marker'; 
+	margin: 0 auto;
+	float: none;
+}
+
+#sendb:hover{
+	text-decoration: underline;
+	background-color: transparent !important;
+}
+
+.buton-container{
+	text-align: center;
+}
+
+.footer{
+	text-align: center;
+	background-color: #2a2a2a;
+	padding: 1%;
+}
+
+.footer p {
+	color: white;
+	font-size: 15px;
+}
+
+textarea.form-control{
+	height: 102px;
+}
+
+
+/********** MEDIA QUERIES ************/
+
+@media screen and (min-width: 601px) {
+	.navbar-header,
+	.navbar-collapse{
+		display: inline;
+	}
+}
+
+@media screen and (min-device-width: 800px) and (max-device-width: 1280px) and (orientation: landscape ){
+	
+	#facts .carousel-inner > .item > img {
+	    padding: 50px 0 50px 50px;
+	}
+
+	#facts .carousel-inner > .item > img {
+	    height: 25%;
+	    max-width: 30%;
+	}
+
+	#facts .carousel-caption {
+	    width: 70%;
+	    padding: 10px;
+	}
+}
+
+@media screen and (min-device-width: 800px) and (max-device-width: 1280px) and (orientation: portrait ){
+	#consection {
+	    height: 50vh;
+	}
+
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 790px) and (orientation: portrait ){
+	
+	#consection {
+	    height: 60vh;
+	}
+
+}
+
+@media screen and (max-device-width: 800px) {
+	.navbar-nav > li, .navbar-brand {
+	    font-size: 1.3em;
+	    padding: 0 5px;
+	}
+
+	#facts p, #facts h2 {
+	    font-size: 1.5em;
+	}
+
+	.sabias-que div {
+	    padding: 50px 0;
+	}
+
+	.mision p {
+	    font-size: 2em;
+	    padding: 5%;
+	}
+
+	#facts .carousel-inner > .item > img {
+	    padding: 50px 0 50px 50px;
+	}
+
+	#facts .carousel-inner > .item > img {
+	    height: 25%;
+	    max-width: 30%;
+	}
+
+	#facts .carousel-caption {
+	    width: 70%;
+	    padding: 10px;
+	}
+
+}
+
+@media screen and (max-device-width: 800px) and (orientation: portrait ) {
+	
+	.pre-header {
+	    height: 50vh;
+	    background-size: 100vw 50vh !important;
+	}
+
+	.main-tag{
+		bottom: -30vh;
+	}
+
+	.menu-mh {
+	    top: 50vh;
+	}
+	
+	#consection {
+	    height: 70vh;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.navbar-nav {
+	    float: none;
+	    list-style: none;
+	    margin-top: 0;
+	}
+	
+	.navbar-nav > li{
+	    z-index: 999 !important;
+	    display: block;
+	}
+	
+	.sabias-que img {
+	    height: 50px;
+	    width: 50px;
+	}
+
+	.sabias-que p {
+	    padding: 0px 20px 10px;
+	}
+	
+	.sabias-que h2 {
+	    padding-bottom: 20px;
+	}
+
+	.mision {
+	    padding: 0px 20px 30px;
+	}
+
+	.mision p {
+	    font-size: 1.5em;
+	}
+
+	.pre-header h1 {
+	    color: white;
+	    font-size: 0.8em;
+	}
+
+	.videos {
+	    padding: 0px 5%;
+	    margin-top: 100px;
+	}
+}
+
+@media screen and (max-width: 600px) and (orientation: landscape) {
+	#consection {
+	    height: 200vh;
+	}
+}
+
+@media screen and (min-height: 480px) {
+	
+	#facts .carousel-inner > .item > img {
+	    height: 25%;
+	    max-width: 100%;
+	    width: 50%;
+	    float: none;
+	    margin: 0 auto;
+	    padding: 0;
+	}
+
+	#facts .carousel-caption {
+	    width: 100%;
+	    padding: 10px 10px 50px;
+	}
+}
+
+@media screen and (min-height: 480px) and (orientation: portrait) {
+	#consection {
+	    height: 140vh;
+	}
+
+	label {
+	    display: block;
+	    float: none;
+	    width: 100%;
+	    text-align: center;
+	    padding-right: 0;
+	}
+
+	input, textarea {
+	    display: block;
+	    width: 100% !important;
+	}
+
+	.pre-header h1 {
+	    font-size: 0.65em;
+	}
+}
+
